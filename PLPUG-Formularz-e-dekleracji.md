@@ -1,6 +1,6 @@
 # Specyfikacja elektronicznej deklaracji członkowskiej Stowarzyszenia Polska Grupa Użytkowników Pythona
 
-># 1. PANEL KLIENTA
+>## 1. PANEL KLIENTA
 
 **1.1 Wypełnienie formularza rejestracji**
 
@@ -105,7 +105,7 @@ Użytkownik może usunąć konto w systemie wysyłając maila do Administratora.
 
 Administrator po weryfikacji zgłoszenia usuwa konto w sposób jaki opisano w rozdziale 2.3.
 
-**2. PANEL ADMINISTRATORA**
+>## 2. PANEL ADMINISTRATORA
 
 **2.1 Lista zarejestrowanych członków**
 
