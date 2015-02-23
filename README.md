@@ -1,1 +1,1 @@
-Specyfikacja formularz elektronicznej deklaracji członków Stowarzyszenia PLPUG.
+Specyfikacja formularza elektronicznej deklaracji członków Stowarzyszenia PLPUG.
