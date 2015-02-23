@@ -10,17 +10,17 @@ Widok z formularzem rejestracji uwzględnia następujące sekcje i ich pola:
 
 **Dane podstawowe:**
 
-* Imię* _[input, type=text, maxlength=20]_
-* Nazwisko* _[input, type=text, maxlength=50]_
-* E-mail* _[input, type=email, maxlength=20]_
-* Telefon komórkowy _[input, type=text, maxlength=15]_
-* Data urodzenia* _[input, type=date]_
-* Kraj* _[select, default=Polska]_
-* PESEL* _[input, type=text, maxlength=11]_
-* Płeć* _[select, set={kobieta, mężczyzna, inne}]_
+* Imię* _[input, type=text, maxlength=20]_,
+* Nazwisko* _[input, type=text, maxlength=50]_,
+* E-mail* _[input, type=email, maxlength=20]_,
+* Telefon komórkowy _[input, type=text, maxlength=15]_,
+* Data urodzenia* _[input, type=date]_,
+* Kraj* _[select, default=Polska]_,
+* PESEL* _[input, type=text, maxlength=11]_,
+* Płeć* _[select, set={kobieta, mężczyzna, inne}]_,
 * Jestem studentem lub osobą uczącą się _[checkbox, default=false]_:
-  * Nazwa uczelni, wydziału / szkoły* _[input, type=text, maxlength=25]_
-  * Adres placówki* _[input, type=text, maxlength=50]_
+  * Nazwa uczelni, wydziału / szkoły* _[input, type=text, maxlength=25]_,
+  * Adres placówki* _[input, type=text, maxlength=50]_.
 
 Pole _E-mail_, _Telefon komórkowy_ oraz _PESEL_ mają być wyposażone w dodatkowe walidatory sprawdzające ich poprawność, zgodnie z przyjętymi normami.
 
@@ -30,31 +30,31 @@ Pole _Nazwa uczelni, wydziału / szkoły_ oraz _Adres placówki_ pojawiają się
 
 **Adres zamieszkania:**
 
-* Ulica* _[input, type=text, maxlength=40]_
-* Numer domu* _[input, type=text, maxlength=5]_
-* Numer mieszkania _[input, type=text, maxlength=5]_
-* Kod pocztowy* _[input, type=text, maxlength=6]_
-* Miejscowość* _[input, type=text, maxlength=20]_
-* Adres do korenspondencji _[checkbox, default=false]_
+* Ulica* _[input, type=text, maxlength=40]_,
+* Numer domu* _[input, type=text, maxlength=5]_,
+* Numer mieszkania _[input, type=text, maxlength=5]_,
+* Kod pocztowy* _[input, type=text, maxlength=6]_,
+* Miejscowość* _[input, type=text, maxlength=20]_,
+* Adres do korenspondencji _[checkbox, default=false]_.
 
 Jeżeli pole typu checkbox _Adres do korespondencji_ nie zostało zaznaczone, użytkownik musi wypełnić również formularz "Adres do korespondencji".
 
 **Adres do korespondencji:**
 
-* Ulica* _[input, type=text, maxlength=40]_
-* Numer domu* _[input, type=text, maxlength=5]_
-* Numer mieszkania _[input, type=text, maxlength=5]_
-* Kod pocztowy* _[input, type=text, maxlength=6]_
-* Miejscowość* _[input, type=text, maxlength=20]_
-* Kraj* _[select]_
+* Ulica* _[input, type=text, maxlength=40]_,
+* Numer domu* _[input, type=text, maxlength=5]_,
+* Numer mieszkania _[input, type=text, maxlength=5]_,
+* Kod pocztowy* _[input, type=text, maxlength=6]_,
+* Miejscowość* _[input, type=text, maxlength=20]_,
+* Kraj* _[select]_.
 
 **Wymagane zgody:**
 
-* Oświadczam, że znany mi jest statut Stowarzyszenia Polska Grupa Użytkowników Pythona i zobowiązuję się do przestrzegania jego postanowień* _[checkbox, default=false]_
-* Akceptuję Regulamin formularza elektronicznej deklaracji członkowskiej Stowarzyszenia Polska Grupa Użytkowników Pythona* _[checkbox, default=false]_
-* Wyrażam zgodę na przetwarzanie moich danych dla celów związanych z realizacją celów statutowych Stowarzyszenia Polska Grupa Użytkowników Pythona z siedzibą na ul. Madalińskiego 106, 02-506 Warszawa, Polska. Oświadczam, że zostałem poinformowany, iż administratorem moich danych osobowych będzie Stowarzyszenie Polska Grupa Użytkowników Pythona, przysługuje mi prawo dostępu do treści moich danych oraz ich poprawiania oraz usunięcia, a podanie danych osobowych jest dobrowolne, lecz konieczne do świadczenia usługi* _[checkbox, default=false]_
-* Wyrażam zgodę na udostępnienie moich danych współpracującym ze Stowarzyszeniem Polska Grupa Użytkowników Pythona podmiotami w celu niezbędnym do realizacji zadań statutowych* _[checkbox, default=false]_
-* Wyrażam zgodę na przesyłanie mi newslettera Stowarzyszenia Polska Grupa Użytkowników Pythona _[checkbox, default=false]_
+* Oświadczam, że znany mi jest statut Stowarzyszenia Polska Grupa Użytkowników Pythona i zobowiązuję się do przestrzegania jego postanowień* _[checkbox, default=false]_,
+* Akceptuję Regulamin formularza elektronicznej deklaracji członkowskiej Stowarzyszenia Polska Grupa Użytkowników Pythona* _[checkbox, default=false]_,
+* Wyrażam zgodę na przetwarzanie moich danych dla celów związanych z realizacją celów statutowych Stowarzyszenia Polska Grupa Użytkowników Pythona z siedzibą na ul. Madalińskiego 106, 02-506 Warszawa, Polska. Oświadczam, że zostałem poinformowany, iż administratorem moich danych osobowych będzie Stowarzyszenie Polska Grupa Użytkowników Pythona, przysługuje mi prawo dostępu do treści moich danych oraz ich poprawiania oraz usunięcia, a podanie danych osobowych jest dobrowolne, lecz konieczne do świadczenia usługi* _[checkbox, default=false]_,
+* Wyrażam zgodę na udostępnienie moich danych współpracującym ze Stowarzyszeniem Polska Grupa Użytkowników Pythona podmiotami w celu niezbędnym do realizacji zadań statutowych* _[checkbox, default=false]_,
+* Wyrażam zgodę na przesyłanie mi newslettera Stowarzyszenia Polska Grupa Użytkowników Pythona _[checkbox, default=false]_.
 
 Fragment "statut Stowarzyszenia Polska Grupa Użytkowników Pythona" musi być podlinkowana do strony [1].
 
@@ -90,7 +90,7 @@ Treść maila o którym mowa powyżej, np:
 
 > Adres: Stowarzyszenie Polska Grupa Użytkowników Pythona, ul. Madalińskiego 106, 02-506 Warszawa, Polska
 
-> Pozdrawiamy,
+> Pozdrawiamy,  
 > Stowarzyszenie PLPUG
 
 **1.2 Edycja danych konta członka**
