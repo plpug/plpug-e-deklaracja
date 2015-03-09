@@ -12,7 +12,7 @@ Widok z formularzem rejestracji uwzględnia następujące sekcje i ich pola:
 
 * Imię* _[input, type=text, maxlength=20]_,
 * Nazwisko* _[input, type=text, maxlength=50]_,
-* E-mail* _[input, type=email, maxlength=20]_,
+* E-mail* _[input, type=email, maxlength=256]_,
 * Telefon komórkowy _[input, type=text, maxlength=15]_,
 * Data urodzenia* _[input, type=date]_,
 * Kraj* _[select, default=Polska]_,
