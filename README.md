@@ -1,4 +1,4 @@
 Specyfikacja formularza elektronicznej deklaracji członków Stowarzyszenia PLPUG.
 
-Data: 23.02.2015 r., 20:57  
-Wersja: 1.1
+Data: 10.03.2015 r., 01:00  
+Wersja: 1.1.1
